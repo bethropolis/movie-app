@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Svelte + TS + Vite App</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  </head>
-  <body>  
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Svelte + TS + Vite App</title>
+  <link rel="stylesheet" href="lib/materialize/css/materialize.min.css">
+  <link rel="stylesheet" href="lib/materialize/css/icon.css">
+</head>
+
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.ts"></script>
+  <script defer>
+    // when decument is fully loaded
+    document.addEventListener('DOMContentLoaded', () => {
+      setTimeout(() => {
+        let item = document.querySelectorAll(".hs");
+        item.forEach((i) => {
+          i.addEventListener("mousewheel", function (e) {
+            if (e.deltaY > 0) {
+              i.scrollLeft += 100;
+              e.preventDefault();
+            } else {
+              i.scrollLeft -= 100;
+              e.preventDefault();
+            }
+          });
+        });
+      }, 1000);
+    });
+  </script>
+</body>
+
 </html>
