@@ -1,6 +1,4 @@
 <script>
-  import { is_empty } from "svelte/internal";
-
   let data = [];
   export let url = "";
   export let title = "";
@@ -14,6 +12,10 @@
         data = json.results || [];
       });
   }
+
+  function handleClick(id){
+movie = id
+  }
   $: getData(url);
 </script>
 
@@ -23,7 +25,7 @@
     <ul class="hs full no-scrollbar">
       {#each data as item}
         <li
-          on:click={movie = item.id}
+          on:click|preventDefault={()=>{handleClick(item.id)}}
           class="item flow-text"
           loading="lazy"
           style="background-image: url({'https://image.tmdb.org/t/p/w185' +
@@ -41,7 +43,6 @@
 
 <style>
   :root {
-    --primary: #ff0000;
     --gutter: 20px;
   }
   .app {
@@ -68,7 +69,8 @@
     grid-auto-flow: column;
     grid-auto-columns: 183px;
     overflow-x: scroll;
-    scroll-snap-type: x proximity;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
     padding-bottom: calc(0.75 * var(--gutter));
     margin-bottom: calc(-0.25 * var(--gutter));
   }
@@ -89,10 +91,10 @@
     position: relative;
     scroll-snap-align: center;
     background-repeat: no-repeat !important;
+    cursor: pointer;
     background-size: cover;
     background-position: center;
     flex-direction: column;
-    background: #fff;
     border-radius: 8px;
   }
 
@@ -102,7 +104,6 @@
     bottom: 0;
     position: absolute;
     background: rgba(0, 0, 0, 0.5);
-    cursor: pointer;
     color: #fff;
     font-size: 1.5rem;
     text-align: center;
@@ -143,27 +144,11 @@
     position: relative;
   }
 
-  li.item.flow-text {
-    box-shadow: -13px -13px 17px #656464, 13px 13px 17px #878484;
-  }
-  li.item.flow-text {
-    box-shadow: -13px -13px 17px #656464, 13px 13px 17px #878484;
-  }
-
   span {
     position: absolute;
     background-color: grey;
     z-index: 600;
     color: #fdf6ec;
-    padding-right: 10px;
-    border-bottom-right-radius: 8px;
-    font-size: 12px;
-  }
-  span {
-    position: absolute;
-    background-color: grey;
-    z-index: 600;
-    color: #b4b1b1;
     padding-right: 10px;
     border-bottom-right-radius: 8px;
     font-size: 12px;

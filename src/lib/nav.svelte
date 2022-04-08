@@ -8,6 +8,7 @@
    
   }
   export let search = "";
+  export let tab;
 </script>
 
 <nav class="transparent">
@@ -25,7 +26,7 @@
   {:else}
 
       <ul class="left">
-        <li><a href="#"><i class="material-icons">cloud</i></a></li>
+        <li><a href="./" on:click|preventDefault="{()=>{tab = 1}}"><i class="material-icons">cloud</i></a></li>
       </ul>
       <ul class="right">
         <li><a href="#" on:click|preventDefault="{handleClick}"><i class="material-icons">search</i></a></li>

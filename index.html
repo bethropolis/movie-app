@@ -15,22 +15,22 @@
   <script type="module" src="/src/main.ts"></script>
   <script defer>
     // when decument is fully loaded
-    document.addEventListener('DOMContentLoaded', () => {
-      setTimeout(() => {
-        let item = document.querySelectorAll(".hs");
-        item.forEach((i) => {
-          i.addEventListener("mousewheel", function (e) {
-            if (e.deltaY > 0) {
-              i.scrollLeft += 100;
-              e.preventDefault();
-            } else {
-              i.scrollLeft -= 100;
-              e.preventDefault();
-            }
-          });
-        });
-      }, 1000);
-    });
+    // document.addEventListener('DOMContentLoaded', () => {
+    //   setTimeout(() => {
+    //   let item = document.querySelectorAll(".hs");
+    // item.forEach((i) => {
+    //   i.addEventListener("mousewheel", function (e) {
+    //     if (e.deltaY > 0) {
+    //       i.scrollLeft += 100;
+    //       e.preventDefault();
+    //     } else {
+    //       i.scrollLeft -= 100;
+    //       e.preventDefault();
+    //     }
+    //   });
+    // });
+    // }, 1000);
+    // });
   </script>
 </body>
 
