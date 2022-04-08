@@ -1,0 +1,425 @@
+{
+    "page": 1,
+    "results": [
+        {
+            "genre_ids": [
+                14,
+                28,
+                12
+            ],
+            "original_language": "en",
+            "original_title": "Doctor Strange in the Multiverse of Madness",
+            "poster_path": "/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg",
+            "video": false,
+            "vote_average": 0.0,
+            "id": 453395,
+            "overview": "Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.",
+            "release_date": "2022-05-04",
+            "vote_count": 0,
+            "adult": false,
+            "backdrop_path": "/11ZcwW7KqNPwKzFcyFGrA0MBt49.jpg",
+            "title": "Doctor Strange in the Multiverse of Madness",
+            "popularity": 322.118,
+            "media_type": "movie"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg",
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "original_language": "en",
+            "original_title": "Spider-Man: No Way Home",
+            "poster_path": "/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+            "id": 634649,
+            "video": false,
+            "title": "Spider-Man: No Way Home",
+            "overview": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+            "release_date": "2021-12-15",
+            "vote_count": 11074,
+            "vote_average": 8.2,
+            "popularity": 6284.07,
+            "media_type": "movie"
+        },
+        {
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "original_language": "en",
+            "original_title": "Moonfall",
+            "poster_path": "/odVv1sqVs0KxBXiA8bhIBlPgalx.jpg",
+            "id": 406759,
+            "vote_average": 6.4,
+            "overview": "A mysterious force knocks the moon from its orbit around Earth and sends it hurtling on a collision course with life as we know it.",
+            "release_date": "2022-02-03",
+            "vote_count": 510,
+            "video": false,
+            "adult": false,
+            "backdrop_path": "/x747ZvF0CcYYTTpPRCoUrxA2cYy.jpg",
+            "title": "Moonfall",
+            "popularity": 6302.489,
+            "media_type": "movie"
+        },
+        {
+            "id": 675353,
+            "title": "Sonic the Hedgehog 2",
+            "adult": false,
+            "backdrop_path": "/egoyMDLqCxzjnSrWOz50uLlJWmD.jpg",
+            "release_date": "2022-03-30",
+            "genre_ids": [
+                28,
+                878,
+                35,
+                10751
+            ],
+            "original_language": "en",
+            "original_title": "Sonic the Hedgehog 2",
+            "poster_path": "/6DrHO1jr3qVrViUO6s6kFiAGM7.jpg",
+            "video": false,
+            "vote_average": 7.8,
+            "vote_count": 140,
+            "overview": "After settling in Green Hills, Sonic is eager to prove he has what it takes to be a true hero. His test comes when Dr. Robotnik returns, this time with a new partner, Knuckles, in search for an emerald that has the power to destroy civilizations. Sonic teams up with his own sidekick, Tails, and together they embark on a globe-trotting journey to find the emerald before it falls into the wrong hands.",
+            "popularity": 3360.743,
+            "media_type": "movie"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/lRbDyjI7HEaXxflFQbYpqHRGFBJ.jpg",
+            "id": 505026,
+            "genre_ids": [
+                80,
+                18,
+                9648,
+                53
+            ],
+            "original_language": "en",
+            "original_title": "Death on the Nile",
+            "poster_path": "/kVr5zIAFSPRQ57Y1zE7KzmhzdMQ.jpg",
+            "video": false,
+            "vote_average": 6.6,
+            "vote_count": 1073,
+            "overview": "Belgian sleuth Hercule Poirot boards a glamorous river steamer with enough champagne to fill the Nile. But his Egyptian vacation turns into a thrilling search for a murderer when a picture-perfect couple’s idyllic honeymoon is tragically cut short.",
+            "release_date": "2022-02-09",
+            "title": "Death on the Nile",
+            "popularity": 1178.231,
+            "media_type": "movie"
+        },
+        {
+            "genre_ids": [
+                28,
+                53
+            ],
+            "original_language": "en",
+            "original_title": "The Contractor",
+            "poster_path": "/rJPGPZ5soaG27MK90oKpioSiJE2.jpg",
+            "video": false,
+            "vote_average": 6.4,
+            "id": 628900,
+            "overview": "After being involuntarily discharged from the U.S. Special Forces, James Harper decides to support his family by joining a private contracting organization alongside his best friend and under the command of a fellow veteran. Overseas on a covert mission, Harper must evade those trying to kill him while making his way back home.",
+            "release_date": "2022-03-10",
+            "vote_count": 63,
+            "adult": false,
+            "backdrop_path": "/kHd4rwdRtJXnYMraQSrlgPSCsIt.jpg",
+            "title": "The Contractor",
+            "popularity": 206.647,
+            "media_type": "movie"
+        },
+        {
+            "genre_ids": [
+                28,
+                878,
+                14
+            ],
+            "original_language": "en",
+            "original_title": "Morbius",
+            "poster_path": "/6nhwr1LCozBiIN47b8oBEomOADm.jpg",
+            "id": 526896,
+            "vote_average": 5.8,
+            "overview": "Dangerously ill with a rare blood disorder, and determined to save others suffering his same fate, Dr. Michael Morbius attempts a desperate gamble. What at first appears to be a radical success soon reveals itself to be a remedy potentially worse than the disease.",
+            "release_date": "2022-03-30",
+            "vote_count": 280,
+            "video": false,
+            "adult": false,
+            "backdrop_path": "/tj4lzGgHrfjnjVqAKkLIjFqPSyO.jpg",
+            "title": "Morbius",
+            "popularity": 1500.519,
+            "media_type": "movie"
+        },
+        {
+            "genre_ids": [
+                35
+            ],
+            "original_language": "en",
+            "original_title": "The Bubble",
+            "poster_path": "/edYk5TSowZIDv138bCpF5ls3XI5.jpg",
+            "id": 765119,
+            "vote_average": 5.0,
+            "vote_count": 108,
+            "overview": "Sneaking out. Hooking up. Melting down. The cast and crew of a blockbuster action franchise attempt to shoot a sequel while quarantining at a posh hotel.",
+            "release_date": "2022-03-25",
+            "video": false,
+            "title": "The Bubble",
+            "adult": false,
+            "backdrop_path": "/fjgcQ8tkw00BLK2N0BqRbfGz6sv.jpg",
+            "popularity": 355.768,
+            "media_type": "movie"
+        },
+        {
+            "genre_ids": [
+                18,
+                28,
+                80
+            ],
+            "original_language": "pl",
+            "original_title": "Furioza",
+            "poster_path": "/tFURJnWv5qW58x4OOrXt1GQEyr1.jpg",
+            "video": false,
+            "vote_average": 7.2,
+            "id": 866678,
+            "overview": "A policewoman makes her ex-boyfriend an offer he can't refuse: Either he infiltrates and informs on a gang of hooligans, or his brother goes to jail.",
+            "release_date": "2021-10-22",
+            "vote_count": 7,
+            "adult": false,
+            "backdrop_path": "/z9ex4lZCzEXiXJu5XbAIDs8Oqs6.jpg",
+            "title": "Furioza",
+            "popularity": 12.589,
+            "media_type": "movie"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/8rojfDL9ZzDEvt6ppCpan3WK3iy.jpg",
+            "genre_ids": [
+                18,
+                53
+            ],
+            "id": 714676,
+            "original_language": "en",
+            "original_title": "Alice",
+            "overview": "Alice spends her days enslaved on a rural Georgia plantation restlessly yearning for freedom. After a violent clash with plantation owner Paul, Alice flees through the neighboring woods and stumbles onto the unfamiliar sight of a highway, soon discovering that the year is actually 1973.",
+            "poster_path": "/7akDcAHfp7Lkmuq2ygzNzOhWq8M.jpg",
+            "release_date": "2022-03-18",
+            "title": "Alice",
+            "video": false,
+            "vote_average": 6.5,
+            "vote_count": 2,
+            "popularity": 12.999,
+            "media_type": "movie"
+        },
+        {
+            "genre_ids": [
+                80,
+                9648,
+                53
+            ],
+            "original_language": "en",
+            "original_title": "The Batman",
+            "poster_path": "/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+            "video": false,
+            "vote_average": 7.9,
+            "id": 414906,
+            "overview": "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.",
+            "release_date": "2022-03-01",
+            "vote_count": 2696,
+            "adult": false,
+            "backdrop_path": "/5P8SmMzSNYikXpxil6BYzJ16611.jpg",
+            "title": "The Batman",
+            "popularity": 1959.323,
+            "media_type": "movie"
+        },
+        {
+            "video": false,
+            "vote_average": 6.8,
+            "title": "Fantastic Beasts: The Secrets of Dumbledore",
+            "overview": "In an effort to thwart Grindelwald's plans of raising pure-blood wizards to rule over all non-magical beings, Albus Dumbledore enlists his former student Newt Scamander, who agrees to help, though he's unaware of the dangers that lie ahead. Lines are drawn as love and loyalty are tested, even among the truest friends and family, in an increasingly divided wizarding world.",
+            "release_date": "2022-04-07",
+            "adult": false,
+            "backdrop_path": "/mZ3dl55cY8xtbzX06MOh31pV84Y.jpg",
+            "genre_ids": [
+                14,
+                12
+            ],
+            "vote_count": 18,
+            "original_language": "en",
+            "original_title": "Fantastic Beasts: The Secrets of Dumbledore",
+            "poster_path": "/8ZbybiGYe8XM4WGmGlhF0ec5R7u.jpg",
+            "id": 338953,
+            "popularity": 519.114,
+            "media_type": "movie"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/3yAoVcQR1i7Zgm7yNxy58i3RzCi.jpg",
+            "genre_ids": [
+                16,
+                878,
+                12
+            ],
+            "id": 664996,
+            "original_language": "en",
+            "original_title": "Apollo 10½:  A Space Age Childhood",
+            "overview": "A man narrates stories of his life as a 10-year-old boy in 1969 Houston, weaving tales of nostalgia with a fantastical account of a journey to the moon.",
+            "poster_path": "/fBShWJhX4oMlDicPHocQc7wDPlt.jpg",
+            "release_date": "2022-03-24",
+            "title": "Apollo 10½:  A Space Age Childhood",
+            "video": false,
+            "vote_average": 7.1,
+            "vote_count": 34,
+            "popularity": 79.883,
+            "media_type": "movie"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/fOy2Jurz9k6RnJnMUMRDAgBwru2.jpg",
+            "genre_ids": [
+                16,
+                10751,
+                35,
+                14
+            ],
+            "original_language": "en",
+            "original_title": "Turning Red",
+            "poster_path": "/qsdjk9oAKSQMWs0Vt5Pyfh6O4GZ.jpg",
+            "id": 508947,
+            "video": false,
+            "title": "Turning Red",
+            "overview": "Thirteen-year-old Mei is experiencing the awkwardness of being a teenager with a twist – when she gets too excited, she transforms into a giant red panda.",
+            "release_date": "2022-03-01",
+            "vote_count": 1450,
+            "vote_average": 7.5,
+            "popularity": 5126.644,
+            "media_type": "movie"
+        },
+        {
+            "poster_path": "/zyGDRV8eJXsaeYg11i5Y2PUSMNF.jpg",
+            "video": false,
+            "vote_average": 6.4,
+            "overview": "Leonard is an English tailor who used to craft suits on London’s world-famous Savile Row. After a personal tragedy, he’s ended up in Chicago, operating a small tailor shop in a rough part of town where he makes beautiful clothes for the only people around who can afford them: a family of vicious gangsters.",
+            "release_date": "2022-02-25",
+            "vote_count": 8,
+            "adult": false,
+            "backdrop_path": "/2n95p9isIi1LYTscTcGytlI4zYd.jpg",
+            "title": "The Outfit",
+            "genre_ids": [
+                80,
+                18
+            ],
+            "id": 799876,
+            "original_language": "en",
+            "original_title": "The Outfit",
+            "popularity": 19.222,
+            "media_type": "movie"
+        },
+        {
+            "genre_ids": [
+                35,
+                10749,
+                878
+            ],
+            "original_language": "en",
+            "id": 767825,
+            "poster_path": "/thqgzBPEDYQX0taszVus5nYMtTZ.jpg",
+            "video": false,
+            "vote_average": 6.7,
+            "overview": "In a future where Mars is terraformed and colonized by the best humanity has to offer, two very different college students wind up joining forces and sneak onboard a space shuttle to the red planet in order to be united with their significant others.",
+            "release_date": "2022-03-23",
+            "vote_count": 34,
+            "title": "Moonshot",
+            "adult": false,
+            "backdrop_path": "/rk860hTM0kpu8oNhQkpnDv320rH.jpg",
+            "original_title": "Moonshot",
+            "popularity": 374.825,
+            "media_type": "movie"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/oXJq7bVXfKzx1qMI0J8qOM1Yr9A.jpg",
+            "genre_ids": [
+                10402,
+                10751,
+                35
+            ],
+            "original_language": "en",
+            "original_title": "Better Nate Than Ever",
+            "poster_path": "/55gkFbie2Nbudo21rDpi6zG0XvC.jpg",
+            "id": 826953,
+            "video": false,
+            "vote_average": 7.2,
+            "overview": "13-year-old Nate Foster has big Broadway dreams but there’s only one problem — he can’t even land a part in the school play. When his parents leave town, Nate and his best friend Libby sneak off to the Big Apple for a once-in-a-lifetime opportunity to prove everyone wrong. A chance encounter with Nate’s long-lost Aunt Heidi turns his journey upside-down, and together they must learn that life’s greatest adventures are only as big as your dreams.",
+            "release_date": "2022-03-15",
+            "vote_count": 21,
+            "title": "Better Nate Than Ever",
+            "popularity": 72.45,
+            "media_type": "movie"
+        },
+        {
+            "backdrop_path": "/dNj8UsgfKndTFUV7xvNijilQHQZ.jpg",
+            "genre_ids": [
+                28,
+                80,
+                53
+            ],
+            "original_language": "en",
+            "original_title": "Ambulance",
+            "poster_path": "/zT5ynZ0UR6HFfWQSRf2uKtqCyWD.jpg",
+            "video": false,
+            "vote_average": 6.7,
+            "vote_count": 127,
+            "overview": "Decorated veteran Will Sharp, desperate for money to cover his wife's medical bills, asks for help from his adoptive brother Danny. A charismatic career criminal, Danny instead offers him a score: the biggest bank heist in Los Angeles history: $32 million.",
+            "release_date": "2022-03-16",
+            "title": "Ambulance",
+            "id": 763285,
+            "adult": false,
+            "popularity": 209.353,
+            "media_type": "movie"
+        },
+        {
+            "id": 752623,
+            "video": false,
+            "vote_average": 7.4,
+            "overview": "Follows a reclusive romance novelist who was sure nothing could be worse than getting stuck on a book tour with her cover model, until a kidnapping attempt sweeps them both into a cutthroat jungle adventure, proving life can be so much stranger, and more romantic, than any of her paperback fictions.",
+            "release_date": "2022-03-24",
+            "adult": false,
+            "backdrop_path": "/hw7foD5in5YCs7qY3Pap9pdc1Vc.jpg",
+            "vote_count": 58,
+            "genre_ids": [
+                28,
+                12,
+                35,
+                10749
+            ],
+            "title": "The Lost City",
+            "original_language": "en",
+            "original_title": "The Lost City",
+            "poster_path": "/rnheO8cFvCYcmZsDrBoabJbKLFE.jpg",
+            "popularity": 237.398,
+            "media_type": "movie"
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/m8SL54nYTgiLeaZrkqeIOk8CLgP.jpg",
+            "genre_ids": [
+                12,
+                10751,
+                878
+            ],
+            "original_language": "nl",
+            "original_title": "Captain Nova",
+            "poster_path": "/prINReSbCkoktcRbrIgmbY4f0tp.jpg",
+            "video": false,
+            "vote_average": 7.3,
+            "vote_count": 13,
+            "overview": "A fighter pilot travels back in time to save the future world from environmental disaster, but a side-effect turns her young again and no-one takes her seriously.",
+            "release_date": "2021-12-01",
+            "id": 881957,
+            "title": "Captain Nova",
+            "popularity": 20.157,
+            "media_type": "movie"
+        }
+    ],
+    "total_pages": 1000,
+    "total_results": 20000
+}
