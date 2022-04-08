@@ -91,6 +91,21 @@
     place-content: center;
     width: 300px;
   }
+  
+div.chip{
+  background-color: transparent;
+  border-radius: 9px;
+  filter: brightness(37%);
+  color: white;
+  font-size: 2ex;
+  
+}
+
+div.row {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
   span.rating {
     position: absolute;
     color: var(--primary) lightness(+20%);
