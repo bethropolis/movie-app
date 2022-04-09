@@ -1,0 +1,37 @@
+{
+    "name": "Movies info",
+    "short_name": "M-info", 
+    "lang": "en",
+    "start_url": "./",
+    "id": "/app-id/",
+    "theme_color": "rgb(27, 26, 23)",
+    "background_color": "rgb(27, 26, 23)",
+    "orientation": "portrait",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "img/icon-192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any"
+        },
+        {
+            "src": "img/icon-192-maskable.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "maskable"
+        },
+        {
+            "src": "img/icon-512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any"
+        },
+        {
+            "src": "img/icon-512-maskable.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "maskable"
+        }
+    ]
+}
