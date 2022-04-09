@@ -74,7 +74,7 @@
             <div class="row">
               <h4><b>Trailer</b></h4>
               <div class="video-container">
-                <!-- <iframe
+                <iframe
                   data-src={"https://www.youtube.com/embed/" +
                     MovieView.videos.results[0].key}
                     title="{MovieView.title} trailer"
@@ -82,7 +82,7 @@
                   frameborder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
-                /> -->
+                />
               </div>
             </div>
           </div>

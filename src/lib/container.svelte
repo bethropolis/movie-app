@@ -34,7 +34,7 @@ import { loop_guard } from "svelte/internal";
             class="item flow-text"
             loading="lazy"
           >
-          <img data-src={'https://image.tmdb.org/t/p/w185' + (item.poster_path||item.profile_path)}  on:error="{(el)=>{el.srcElement.src='/public/unknown.svg'; console.log(el)}}" alt="" class="lazyload">
+          <img data-src={'https://image.tmdb.org/t/p/w185' + (item.poster_path||item.profile_path)}  on:error={function() {this.src='/public/unknown.svg'}} alt="" class="lazyload">
             <div class="flow-text cal">
               {item.title || item.name}
             </div>

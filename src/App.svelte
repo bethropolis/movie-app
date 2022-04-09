@@ -60,6 +60,26 @@
       url: "https://api.themoviedb.org/3/discover/movie?language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=0&page=1&with_genres=99",
       title: "trillers",
     },
+    // horror
+    {
+      url: "https://api.themoviedb.org/3/discover/movie?language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=0&page=1&with_genres=27",
+      title: "horror",
+    },
+    // mystery
+    {
+      url: "https://api.themoviedb.org/3/discover/movie?language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=0&page=1&with_genres=9648",
+      title: "mystery",
+    },
+    // drama
+    {
+      url: "https://api.themoviedb.org/3/discover/movie?language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=0&page=1&with_genres=18",
+      title: "drama",
+    },
+    // scifi
+    {
+      url: "https://api.themoviedb.org/3/discover/movie?language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=0&page=1&with_genres=878",
+      title: "scifi",
+    },
   ];
   $: {
     console.log("movie:", movie);
