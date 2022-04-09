@@ -1,8 +1,10 @@
 <script>
+	import SearchMovie from './lib/search.svelte';
   import Footer from "./lib/footer.svelte";
   import Nav from "./lib/nav.svelte";
   import MovieView from "./lib/MovieView.svelte";
   import Container from "./lib/container.svelte";
+
   let search = "hello";
   let movie;
   let tab = 1;
@@ -80,9 +82,9 @@
       url: "https://api.themoviedb.org/3/discover/movie?language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=0&page=1&with_genres=878",
       title: "scifi",
     },
+   
   ];
   $: {
-    console.log("movie:", movie);
     if (movie) {
       tab = 2;
     }
@@ -91,17 +93,21 @@
 
 <Nav bind:search bind:tab />
 {#if tab === 1}
-  <!-- content here -->
   {#each urls as url}
     <Container url={url.url} title={url.title} bind:movie />
   {/each}
 {/if}
 
+
 {#if tab == 2}
-  <!-- content here -->
   <MovieView bind:id={movie} />
 {/if}
-<Footer />
+
+{#if tab == 3}
+<SearchMovie bind:tab bind:search bind:m={movie}/>
+{/if}
+
+<Footer bind:tab/>
 
 <style>
   :root {

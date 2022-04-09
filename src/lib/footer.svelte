@@ -1,14 +1,22 @@
+<script>
+   export let tab;
 
+</script>
 <!-- footer with atrribution to tmdb web-->
 <footer class="center">
-    <p>powered by <a href="themoviedb.org">themoviedb.org</a></p>
+  {#if tab !== 3}
+     <!-- content here -->
+
+    <p>powered by <a href="themoviedb.org">themoviedb.org</a></p>  
+    {/if}
 </footer>
 
    <style>
     footer {
       background-color: #222;
       color: #fff;
-      padding: 20px;
+      padding: 1px;
+      
     }
     footer a {
       color: #fff;

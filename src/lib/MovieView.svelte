@@ -24,12 +24,12 @@
     );
     let data = await response.json();
     cast = data.cast;
-    console.log(cast);
   };
   $: {
     getMovie(id);
     getCast(id);
   }
+
 </script>
 
 <main>
@@ -52,6 +52,12 @@
           </div>
           <div class="card-content ">
             <h3 class="card-title">{MovieView.title || "loading..."}</h3>
+            <!-- release date italics center -->
+            <p class="release-date">
+              <li><i class="material-icons">date_range</i></li>
+              <li>{MovieView.release_date || "loading..."}</li>
+            </p>
+
             <div class="row">
               {#each genres as item}
                 <div class="chip">
@@ -63,9 +69,14 @@
               <div class="chip time">
                 {MovieView.runtime} min
               </div>
+            <!-- adult -->
+            <div class="chip">
+              {MovieView.adult ? "Adult" : "family"}
+            </div>
             </div>
             <!-- tag line -->
             <p class="tagline">{MovieView.tagline}</p>
+            <!-- overview -->
             <h4><b>OverView</b></h4>
             <div class="row">
               <p class="flow-text">{MovieView.overview || "loading..."}</p>
@@ -78,7 +89,7 @@
                   data-src={"https://www.youtube.com/embed/" +
                     MovieView.videos.results[0].key}
                     title="{MovieView.title} trailer"
-                    class="lazyload"
+                    class="lazyload center-block responsive-img"
                   frameborder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen

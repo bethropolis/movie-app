@@ -1,6 +1,7 @@
 <script lang="ts">
   let isSearch = false;
   function handleClick() {
+    isSearch ? null: tab = 3;
     isSearch = !isSearch;
     search = "";
   }
@@ -16,6 +17,7 @@
         <input
           type="text"
           bind:value={search}
+          on:input={()=>{tab = 3}}
           class="white"
           placeholder="search for movie..."
         />
@@ -50,4 +52,14 @@
 </nav>
 
 <!-- markup (zero or more items) goes here -->
-<style></style>
+<style>
+  nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background: rgba(0,0,0,0.5);
+    height: 50px;
+  }
+</style>

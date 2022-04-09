@@ -1,6 +1,4 @@
 <script>
-import { loop_guard } from "svelte/internal";
-
   export let data = [];
   export let url = "";
   export let title = "";
@@ -16,7 +14,6 @@ import { loop_guard } from "svelte/internal";
   }
 
   function handleClick(id) {
-    if(!url)return
     movie = id;
   }
   $: getData(url);
@@ -39,6 +36,7 @@ import { loop_guard } from "svelte/internal";
               {item.title || item.name}
             </div>
             <span>{item.release_date || item.character}</span>
+            
           </li>
       {/each}
     </ul>
@@ -74,7 +72,7 @@ import { loop_guard } from "svelte/internal";
     grid-auto-columns: 183px;
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
-    scroll-snap-type: x mandatory;
+    scroll-snap-type: x proximity; 
     padding-bottom: calc(0.75 * var(--gutter));
     margin-bottom: calc(-0.25 * var(--gutter));
   }

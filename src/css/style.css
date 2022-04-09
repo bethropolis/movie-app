@@ -1,10 +1,11 @@
-body {
-  background-color: #1b1a17;
-  color: #eff0ec;
+body{
+  background-color: #1B1A17;
+  color: #EFF0EC;
   width: 100vw;
   height: 100%;
   overflow-x: hidden;
 }
+
 
 nav {
   background-color: unset;
